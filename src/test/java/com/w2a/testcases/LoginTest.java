@@ -18,7 +18,7 @@ public class LoginTest extends TestBase {
 		log.debug("Test Case 1 Passed");
 		Thread.sleep(3000);
 		Assert.assertTrue(isElementPreasent(By.xpath("//button[contains(text(),'Add Customer')]")));
-		log.debug("Test Case Passed!!!!");
+		log.debug("Test Case Ends!!!!");
 	}
 
 }
